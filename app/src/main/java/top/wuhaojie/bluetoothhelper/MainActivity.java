@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onSearchCompleted(List<BluetoothDevice> bondedList, List<BluetoothDevice> newList) {
                         Log.d(TAG, "SearchCompleted: bondedList" + bondedList.toString());
-                        Log.d(TAG, "SearchCompleted: newList" + newList.toString());
+                        Log.d(TAG, "SearchCompleted: newList123" + newList.toString());
                     }
 
                     @Override
