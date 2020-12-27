@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e("MainActivity", "---------------------这是dev分支-------------------------------");
+        Log.e("MainActivity", "---------------------这是dev分支第二次修改-------------------------------");
         btHelperClient = BtHelperClient.from(MainActivity.this);
 
         btHelperClient.requestEnableBt();
